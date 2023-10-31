@@ -1,0 +1,154 @@
+.projects-style{  
+    background-size: cover;
+}
+.projects-style h1{
+    font-size: 60px;
+    text-shadow: 2px 3px 3px rgb(148, 109, 135);
+    margin-bottom: 15px;
+    margin-top: 100px;
+    text-align: center;
+}
+.projects-style h5{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.projects-style .tabs{
+    width: 50%;
+    height: 75px;;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+/*********************************Section1*****************************/
+.section1{
+    margin-top: 20px;
+    position: relative;
+}
+.section1 .item{
+    width: 390px;
+    height: 280px;
+}
+.section1 .imgstyle{
+    width: 100%;
+    height: 75%;
+    background-size: cover;
+    border-radius: 20px;
+    transition: .6s;
+    filter: drop-shadow(0 0 5px #121212);
+}
+.section1 .imgstyle:hover{
+    transform: scale(1.1);
+}
+.section1 .overlay{
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(148, 109, 135,.85);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+    text-align: center;
+}
+.section1 .overlay .data{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overlay .data h3{
+    font-size: 35px;
+    color: #fff;
+}
+.overlay .data p{
+    font-size: 18px;
+    color: #fff;
+}
+.section1 .imgstyle:hover .overlay{
+    opacity: .9;
+    visibility: visible;
+}
+/*********************************Section2*****************************/
+.form-style{
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    margin-top: 50px;
+}
+.form-style .img{
+    display: flex;
+    width: 50%;
+    height: 75%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+.form-style .data{
+    display: flex;
+    width: 60%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column ; 
+    margin-right: 70px;;
+    margin-top: 70px;
+}
+.data h1{
+    font-size: 45px;
+    align-self: flex-start;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-style: italic;
+    filter: drop-shadow(0 0 5px #B68EA7);
+}
+.input-data{
+    border-radius: 20px;
+    height: 50px;
+    font-size: 18px;
+    border: 1.5px solid #B68EA7;
+    filter: drop-shadow(0 0 3px #B68EA7);
+}
+.msg-input{
+    border-radius: 20px;
+    height: 160px;
+    font-size: 18px;
+    border: 1.5px solid #B68EA7;
+    filter: drop-shadow(0 0 3px #B68EA7);
+}
+.btn-submit{
+    width: 130px;
+    height: 45px;
+    border: 2.5px solid #B68EA7;
+    border-radius: 20px;
+    filter: drop-shadow(0 0 3px #B68EA7);
+}
+.btn-submit:focus , .input-data:focus , .msg-input:focus{
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #fff;
+}
+/*********************************Section3*****************************/
+.mydata{
+    text-align: center;
+    margin-top: 40px;
+}
+.mydata h2{
+    font-size: 40px;
+}
+.mydata p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.mydata p span{
+    color: #B68EA7;
+}

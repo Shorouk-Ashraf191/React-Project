@@ -1,0 +1,77 @@
+.container{
+    display: flex;
+    position: relative;
+}
+.navbar{
+    background-color: #B68EA7;
+    height: 60px;
+    border-radius: 20px;
+
+}
+.nav-brand{
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    filter: drop-shadow(1px 1px 2px #9ea2ed);
+}
+.nav-style{
+    width: 40%;
+    margin-top: 25px;
+    margin-left: 260px;
+    display: flex;
+    font-size: 20px;
+}
+.nav-style a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight:400;
+    color: #fff;
+}
+.nav-style a:hover{
+    font-weight: bold;
+    color: #fff;
+}
+.nav-style a:focus{
+    font-weight: bold;
+    letter-spacing: 5px;
+
+}
+
+.social-media{
+    position: absolute;
+    top: 2px;
+    right: 260px;
+}
+.social-media .social{
+    height: 45px;
+    width: 45px;
+    font-size: 25px;
+    border-radius: 50%;
+    padding: 0px 15px;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-left: 7px;
+}
+.social-media .social:hover{
+    border: 1px solid black;
+    background-color: #fff;
+    color: black;
+}
+.btn-conn{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top:0px;
+    right: 60px;
+    background-color:  #B68EA7;
+    border: 1.5px solid #fff;
+    font-size: 18px;
+    color: #fff;
+}
+.btn-conn:hover{
+    color: black;
+    background-color: #fff;
+    border: 1.5px solid black;
+}

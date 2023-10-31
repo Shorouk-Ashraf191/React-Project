@@ -1,0 +1,49 @@
+.Home-style{
+    margin-top: 60px;
+    background-image: url('../Images/html.png');
+    background-size: cover;
+}
+.parent{
+    display: flex;
+    position: relative;
+}
+.photo .myphoto{
+    width: 600px;
+    height: 600px;
+    margin-left: 65px;
+    margin-top: 20px;
+    animation: photo 4s linear infinite;
+}
+@keyframes photo {
+    50%{
+        margin-left:40px;
+    }
+}
+
+.info{
+    position: absolute;
+    top: 150px;
+    left: 780px;
+}
+.info h1{
+    font-size: 57px;
+    font-weight: bold;
+}
+.info .type{
+    color:#B68EA7;
+}
+.info .welcome{
+    width: 450px;
+    height: 60px;
+    background:-webkit-linear-gradient(left,#B68EA7,#9ea2ed);
+    margin-bottom: 15px;
+    border-radius: 25px;
+    padding-top: 9px;
+    padding-left: 20px;
+}
+.info p{
+    font-size: 18px;
+}
+.info a{
+    text-decoration: none;
+}

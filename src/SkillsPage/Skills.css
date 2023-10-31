@@ -1,0 +1,25 @@
+.skills-style{
+    width: 70%;
+    height: 550px;
+    margin: auto;
+    background-color:rgb(233, 233, 233);
+    margin-top: 100px;
+    padding: 40px;
+    border-radius: 50px;
+    text-align: center;
+    filter: drop-shadow(0 0 3px rgb(148, 109, 135));
+}
+.skills-style h1{
+    font-size: 60px;
+    text-shadow: 2px 3px 3px rgb(148, 109, 135);
+    margin-bottom: 15px;
+}
+.skills-style h5{
+    margin-bottom: 50px;
+}
+.item{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    margin-left: 45px;
+}
