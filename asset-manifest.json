@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/React-Project/static/css/main.050f406a.css",
+    "main.js": "/React-Project/static/js/main.521b9bcd.js",
+    "static/js/787.290c9b3c.chunk.js": "/React-Project/static/js/787.290c9b3c.chunk.js",
+    "static/media/4.png": "/React-Project/static/media/4.c3fd7c880305a0ef47b6.png",
+    "static/media/1.png": "/React-Project/static/media/1.e6b91e15a2a3ce1d2454.png",
+    "static/media/6.png": "/React-Project/static/media/6.22efe329f5f611ff9fcc.png",
+    "static/media/3.png": "/React-Project/static/media/3.2772377434ce10bcf171.png",
+    "static/media/5.png": "/React-Project/static/media/5.0d3919f8c16280b4b95f.png",
+    "static/media/2.png": "/React-Project/static/media/2.3dfacb34bce1ec1590bd.png",
+    "static/media/fphoto.png": "/React-Project/static/media/fphoto.ed9b2c0fd12f375b256e.png",
+    "static/media/photo_2023-10-28_00-22-30-removebg-preview.png": "/React-Project/static/media/photo_2023-10-28_00-22-30-removebg-preview.178cf4bdf7f5ee8991a8.png",
+    "static/media/html.png": "/React-Project/static/media/html.fb4b9b8b919a7c96ab39.png",
+    "index.html": "/React-Project/index.html",
+    "main.050f406a.css.map": "/React-Project/static/css/main.050f406a.css.map",
+    "main.521b9bcd.js.map": "/React-Project/static/js/main.521b9bcd.js.map",
+    "787.290c9b3c.chunk.js.map": "/React-Project/static/js/787.290c9b3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050f406a.css",
+    "static/js/main.521b9bcd.js"
+  ]
+}
