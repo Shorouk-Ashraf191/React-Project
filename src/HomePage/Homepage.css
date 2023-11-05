@@ -50,7 +50,7 @@
     .Home-style{
         margin-top: 60px;
         background-image: url('../Images/html2.png');
-        height: 135vh;
+        height: 120vh;
     }
     .parent{
         flex-direction: column;
