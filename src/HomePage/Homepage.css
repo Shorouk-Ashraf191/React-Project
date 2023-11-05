@@ -50,13 +50,13 @@
     .Home-style{
         margin-top: 60px;
         background-image: url('../Images/html2.png');
-        height: 100vh;
+        height: 110vh;
     }
     .parent{
         flex-direction: column;
     }
     .photo .myphoto{
-        width: 3300px;
+        width: 330px;
         height: 350px;
         margin-left: 0px;
     }
