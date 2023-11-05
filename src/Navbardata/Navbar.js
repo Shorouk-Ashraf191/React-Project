@@ -10,7 +10,8 @@ function Navbarcom () {
         <Navbar expand="lg" className="navbar" fixed="top">
         <Container className='container'>
           <Navbar.Brand href="#home" className='nav-brand' style={{color:"#fff"}}>Shorouk Ashraf</Navbar.Brand>
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle aria-controls="navbarScroll" />
+            <Navbar.Collapse id="navbarScroll" className='small-style'>
             <Nav className="me-auto my-2 my-lg-0 nav-style" style={{ maxHeight: '150px' }} navbarScroll>
               <Nav.Link href="#home">Home</Nav.Link>
               <Nav.Link href="#skills">Skills</Nav.Link>

@@ -23,3 +23,25 @@
     text-align: center;
     margin-left: 45px;
 }
+@media (max-width: 768px){
+    .skills-style{
+        width: 90%;
+        height: 400px;
+        padding: 25px;
+        border-radius: 30px;
+    }
+    .skills-style h1{
+        font-size: 45px;
+        margin-bottom: 10px;
+    }
+    .skills-style h5{
+        margin-bottom: 30px;
+    }
+    .item{
+        width: 150px;
+        height: 250px;
+        text-align: center;
+        margin-left: 35px;
+    }
+
+}
