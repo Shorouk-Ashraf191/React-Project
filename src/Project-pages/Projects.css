@@ -188,7 +188,7 @@
         height: 170vh;
         display: flex;
         flex-direction: column;
-        margin-top: 40px;
+        margin-top: 35px;
     }
     .form-style img{
         width: 100%;
@@ -200,7 +200,7 @@
         height: 100%;
         margin-left: 10px;
         margin-right: 0px;;
-        margin-top: -60px;
+        margin-top: -90px;
     }
     .data h1{
         font-size: 35px;
